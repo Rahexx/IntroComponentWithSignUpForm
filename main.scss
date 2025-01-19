@@ -1,1 +1,16 @@
 @import './styles/utilities/variables';
+
+.container {
+  background: $red;
+
+  &__decorator {
+    position: absolute;
+    top: 0;
+    bottom: 0;
+    left: 0;
+    right: 0;
+    background-image: url('../images/bg-intro-mobile.png');
+    background-repeat: no-repeat;
+    background-size: cover;
+  }
+}
