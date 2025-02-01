@@ -1,0 +1,32 @@
+.header {
+  @include layerUp;
+  margin: $space-88 0 $space-64;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  gap: $space-16;
+
+  &__title {
+    @include text(
+      327px,
+      $white,
+      $font-size-28,
+      $font-weight-700,
+      $line-height-36,
+      $letter-spacing-ns,
+      center
+    );
+  }
+
+  &__text {
+    @include text(
+      327px,
+      $white,
+      $font-size-16,
+      $font-weight-500,
+      $line-height-26,
+      $letter-spacing-ns,
+      center
+    );
+  }
+}

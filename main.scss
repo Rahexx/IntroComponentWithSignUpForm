@@ -1,7 +1,10 @@
 @import './styles/utilities/variables';
+@import './styles/utilities/mixins';
+@import './styles/components/header';
 
 .container {
   background: $red;
+  font-family: $font-primary;
 
   &__decorator {
     position: absolute;
