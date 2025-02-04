@@ -1,0 +1,27 @@
+.trial {
+  @include layerUp;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  gap: $space-24;
+
+  &__free {
+    height: 88px;
+    width: 327px;
+    background: $blue;
+    border-radius: 10px;
+    box-shadow: 0 8px 0 0 $black-shadow;
+  }
+  &__text {
+    margin: $space-18 $space-64;
+    color: $white;
+    text-align: center;
+    line-height: $line-height-26;
+    letter-spacing: $letter-spacing-s;
+    font-size: $font-size-16;
+    font-weight: $font-weight-400;
+  }
+  &__info {
+    font-weight: $font-weight-700;
+  }
+}
