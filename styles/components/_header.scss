@@ -1,10 +1,8 @@
 .header {
   @include layerUp;
+  @include columnFlex($space-16);
   margin: $space-88 0 $space-64;
-  display: flex;
-  flex-direction: column;
   align-items: center;
-  gap: $space-16;
 
   &__title {
     @include text(

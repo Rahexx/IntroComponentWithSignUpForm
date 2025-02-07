@@ -20,3 +20,16 @@
   position: relative;
   z-index: 2;
 }
+
+@mixin inputTextMobile() {
+  line-height: $line-height-26;
+  letter-spacing: $letter-spacing-xs;
+  font-size: $font-size-14;
+  font-weight: $font-weight-600;
+}
+
+@mixin columnFlex($gap: 0) {
+  display: flex;
+  flex-direction: column;
+  gap: $gap;
+}

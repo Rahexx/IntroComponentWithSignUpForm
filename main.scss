@@ -1,11 +1,19 @@
+@import './styles/base/reset';
 @import './styles/utilities/variables';
 @import './styles/utilities/mixins';
 @import './styles/components/header';
 @import './styles/components/trial';
+@import './styles/components/form';
+
+.container,
+input,
+input::placeholder,
+button {
+  font-family: $font-primary;
+}
 
 .container {
   background: $red;
-  font-family: $font-primary;
 
   &__decorator {
     position: absolute;

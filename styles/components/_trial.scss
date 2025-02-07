@@ -1,9 +1,8 @@
 .trial {
   @include layerUp;
-  display: flex;
-  flex-direction: column;
+  @include columnFlex($space-24);
   align-items: center;
-  gap: $space-24;
+  margin-bottom: $space-68;
 
   &__free {
     height: 88px;
