@@ -6,6 +6,25 @@
   border-radius: 10px;
   box-shadow: 0 8px 0 0 $black-shadow;
 
+  &__field {
+    position: relative;
+  }
+
+  &__field--error {
+    .form__input {
+      border: 2px solid $red;
+      color: $red;
+    }
+
+    .form__input:focus-visible {
+      outline: 1px solid $red;
+    }
+
+    .form__icon {
+      @include posAbsolute($space-19, $space-27);
+      display: inline-block;
+    }
+  }
   &__input {
     @include inputTextMobile;
     width: 279px;
