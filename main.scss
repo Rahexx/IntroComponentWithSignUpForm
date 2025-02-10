@@ -24,3 +24,16 @@ button {
     background-size: cover;
   }
 }
+
+@media (min-width: $breakpoint-small-desktop) {
+  .container {
+    display: flex;
+    justify-content: center;
+    gap: $space-45;
+    padding-top: $space-120;
+
+    &__decorator {
+      background-image: url('../images/bg-intro-desktop.png');
+    }
+  }
+}

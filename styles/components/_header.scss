@@ -28,3 +28,14 @@
     );
   }
 }
+
+@media (min-width: $breakpoint-small-desktop) {
+  .header {
+    margin: $space-112 0 $space-64;
+
+    &__title,
+    &__text {
+      text-align: start;
+    }
+  }
+}
