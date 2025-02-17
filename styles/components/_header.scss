@@ -39,3 +39,28 @@
     }
   }
 }
+
+@media (min-width: $breakpoint-desktop) {
+  .header {
+    @include columnFlex($space-11);
+    margin: $space-112 0 $space-64;
+    align-items: center;
+
+    &__title {
+      @include text(
+        525px,
+        $white,
+        $font-size-50,
+        $font-weight-700,
+        $line-height-55,
+        $letter-spacing-nm,
+        start
+      );
+    }
+
+    &__text {
+      width: 525px;
+      letter-spacing: 0px;
+    }
+  }
+}
