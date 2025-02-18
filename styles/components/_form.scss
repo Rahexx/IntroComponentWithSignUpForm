@@ -85,3 +85,36 @@
     display: none;
   }
 }
+
+@media (min-width: $breakpoint-large-desktop) {
+  .form {
+    @include columnFlex($space-16);
+    width: 540px;
+    padding: $space-40;
+
+    &__field--error {
+      .form__input {
+        border: 2px solid $red;
+        color: $red;
+      }
+
+      .form__input:focus-visible {
+        outline: 1px solid $red;
+      }
+
+      .form__icon {
+        @include posAbsolute($space-19, $space-27);
+        display: inline-block;
+      }
+    }
+    &__input {
+      width: 460px;
+      padding: $space-16 0 $space-16 $space-32;
+    }
+
+    &__terms {
+      margin: 0 $space-16;
+      line-height: $line-height-26;
+    }
+  }
+}

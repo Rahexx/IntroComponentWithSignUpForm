@@ -43,7 +43,7 @@
 @media (min-width: $breakpoint-desktop) {
   .header {
     @include columnFlex($space-11);
-    margin: $space-112 0 $space-64;
+    margin: $space-172 0 $space-64;
     align-items: center;
 
     &__title {

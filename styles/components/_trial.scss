@@ -24,3 +24,14 @@
     font-weight: $font-weight-700;
   }
 }
+
+@media (min-width: $breakpoint-large-desktop) {
+  .trial {
+    gap: $space-20;
+
+    &__free {
+      height: 60px;
+      width: 540px;
+    }
+  }
+}
