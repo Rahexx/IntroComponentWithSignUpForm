@@ -1,0 +1,60 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap');
+
+$red: hsl(0, 100%, 74%);
+$green: hsl(154, 59%, 51%);
+$green-hover:hsl(154,65,68);
+$blue: hsl(248, 32%, 49%);
+$dark-blue: hsl(249, 10%, 26%);
+$grayish-blue: hsl(246, 25%, 77%);
+$white: hsl(100, 100%, 100%);
+$black-shadow: hsla(0, 0%, 0%, 0.14);
+$gray: hsl(0, 0, 87, 100%);
+
+$font-primary: 'Poppins', serif;
+
+$font-size-11: 0.6875rem;
+$font-size-12: 0.75rem;
+$font-size-14: 0.875rem;
+$font-size-16: 1rem;
+$font-size-28: 1.75rem;
+$font-size-50: 3.125rem;
+
+$font-weight-400: 400;
+$font-weight-500: 500;
+$font-weight-600: 600;
+$font-weight-700: 700;
+
+$line-height-21: 21px;
+$line-height-26: 26px;
+$line-height-36: 36px;
+$line-height-55: 55px;
+
+$letter-spacing-nm: -0.52px;
+$letter-spacing-ns: -0.29px;
+$letter-spacing-xs: 0.25px;
+$letter-spacing-s: 0.27px;
+$letter-spacing-m: 1px;
+
+$space-6: 6px;
+$space-8: 8px;
+$space-11: 11px;
+$space-16: 16px;
+$space-18: 18px;
+$space-19: 19px;
+$space-20: 20px;
+$space-24: 24px;
+$space-27: 27px;
+$space-29: 29px;
+$space-32: 32px;
+$space-40: 40px;
+$space-45: 45px;
+$space-88: 88px;
+$space-64: 64px;
+$space-68: 68px;
+$space-112: 112px;
+$space-120: 120px;
+$space-172: 172px;
+
+$breakpoint-small-desktop: 996px;
+$breakpoint-desktop: 1200px;
+$breakpoint-large-desktop: 1400px;

@@ -1,0 +1,39 @@
+@import './styles/base/reset';
+@import './styles/utilities/variables';
+@import './styles/utilities/mixins';
+@import './styles/components/header';
+@import './styles/components/trial';
+@import './styles/components/form';
+
+.container,
+input,
+input::placeholder,
+button {
+  font-family: $font-primary;
+}
+
+.container {
+  background: $red;
+
+  &__decorator {
+    @include posAbsolute;
+    bottom: 0;
+    left: 0;
+    background-image: url('../images/bg-intro-mobile.png');
+    background-repeat: no-repeat;
+    background-size: cover;
+  }
+}
+
+@media (min-width: $breakpoint-small-desktop) {
+  .container {
+    display: flex;
+    justify-content: center;
+    gap: $space-45;
+    padding-top: $space-120;
+
+    &__decorator {
+      background-image: url('../images/bg-intro-desktop.png');
+    }
+  }
+}

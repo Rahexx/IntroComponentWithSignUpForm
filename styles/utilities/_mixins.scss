@@ -1,0 +1,41 @@
+@mixin text(
+  $width: 100%,
+  $color: #fff,
+  $font-size: 1rem,
+  $font-weight: 500,
+  $line-height: 0,
+  $letter-spacing: 0,
+  $text-align: center
+) {
+  width: $width;
+  text-align: $text-align;
+  color: $color;
+  line-height: $line-height;
+  letter-spacing: $letter-spacing;
+  font-size: $font-size;
+  font-weight: $font-weight;
+}
+
+@mixin layerUp() {
+  position: relative;
+  z-index: 2;
+}
+
+@mixin inputTextMobile() {
+  line-height: $line-height-26;
+  letter-spacing: $letter-spacing-xs;
+  font-size: $font-size-14;
+  font-weight: $font-weight-600;
+}
+
+@mixin columnFlex($gap: 0) {
+  display: flex;
+  flex-direction: column;
+  gap: $gap;
+}
+
+@mixin posAbsolute($top: 0, $right: 0) {
+  position: absolute;
+  top: $top;
+  right: $right;
+}
