@@ -17,3 +17,8 @@ form.addEventListener('submit', (e) => {
     }
   });
 });
+
+window.onload = () => {
+  const input = document.querySelector('input[name="firstName"]');
+  input.setSelectionRange(input.value.length, input.value.length);
+};
