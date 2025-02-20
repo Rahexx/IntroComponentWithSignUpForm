@@ -47,7 +47,7 @@
   .header {
     display: flex;
     flex-direction: column;
-    gap: 11px;
+    gap: 29px;
     margin: 172px 0 64px;
     align-items: center;
   }
