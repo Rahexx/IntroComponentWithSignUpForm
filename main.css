@@ -249,7 +249,7 @@ button {
   right: 0;
   bottom: 0;
   left: 0;
-  background-image: url("../images/bg-intro-mobile.png");
+  background-image: url("./images/bg-intro-mobile.png");
   background-repeat: no-repeat;
   background-size: cover;
 }
@@ -262,7 +262,7 @@ button {
     padding-top: 120px;
   }
   .container__decorator {
-    background-image: url("../images/bg-intro-desktop.png");
+    background-image: url("./images/bg-intro-desktop.png");
   }
 }
 
